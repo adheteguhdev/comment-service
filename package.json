@@ -46,7 +46,7 @@
     "lint": "eslint --ignore-path .eslintignore --ext .ts,.js .",
     "lint:fix": "eslint --ignore-path .eslintignore --ext .ts,.js --fix .",
     "test": "nyc mocha src/test/**/*.test.ts",
-    "test:docker": "docker-compose -f docker-compose.test.yml run test",
+    "test:docker": "docker-compose -f docker-compose.test.yaml run test",
     "compile": "tsc",
     "dev": "nodemon"
   },

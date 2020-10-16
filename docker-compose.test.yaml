@@ -7,8 +7,8 @@ services:
     build: 
       context: .
       dockerfile: Dockerfile.test
-    # volumes:
-    #   - .:/usr/src/app
+    volumes:
+      - .:/usr/src/app
     depends_on:
       - mongo
     environment:
