@@ -48,7 +48,7 @@ monitoring dir apispec/
 
 ## Run project 
 - Start app `$ yarn start`
-- For development `$ yarn dev` and `$ yarn test`
+- For development `$ yarn dev`,  `$ yarn test` `$ yarn lint`
 - Compile project `$ yarn compile`
 
 ### Run project using docker-compose
