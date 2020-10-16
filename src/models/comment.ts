@@ -10,7 +10,7 @@ const CommentSchema = new Schema({
   isDeleted: { type: Boolean, default: false, index: true },
   createdAt: { type: Date, default: moment().format() },
 }, {
-  collection: "comment",
+  collection: 'comment',
   toJSON: {
     virtuals: true,
     versionKey: false,
@@ -18,8 +18,8 @@ const CommentSchema = new Schema({
       comment.id = comment._id;
       delete comment._id;
       delete comment.isDeleted;
-    }
-  }
+    },
+  },
 });
 
 const Comment = mongoose.model('Comment', CommentSchema);

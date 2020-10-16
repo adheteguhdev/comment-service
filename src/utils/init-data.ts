@@ -12,8 +12,8 @@ const initData = async () => {
       logger.info('Data initialization complete');
     } catch (error) {
       logger.error('Error when initialize data', { error: `${error}` });
-    };
-  };
+    }
+  }
 };
 
 export default initData;

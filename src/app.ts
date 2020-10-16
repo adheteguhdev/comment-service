@@ -11,13 +11,13 @@ import { initializeMiddleware } from 'swagger-tools';
 
 const createApp = async () => {
   const app = express();
-  const swaggerObject = yaml.load(__dirname + "/../apispec/comment-svc.yaml");
+  const swaggerObject = yaml.load(__dirname + '/../apispec/comment-svc.yaml');
 
   app.use(bodyParser.json());
   app.use(bodyParser.urlencoded({ extended: true }));
   app.use(compression());
   app.use(cors());
-  app.use(morgan("dev"));
+  app.use(morgan('dev'));
 
   initializeMiddleware(swaggerObject, (swaggerMiddleware) => {
     app.use(swaggerMiddleware.swaggerMetadata());

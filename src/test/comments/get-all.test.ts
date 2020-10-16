@@ -1,13 +1,13 @@
-import mocha from "mocha";
-import addContext from "mochawesome/addContext";
-import chai from "chai";
-import chaiHttp from "chai-http";
-import "chai/register-should";
-import createApp from "../../app";
-import { closeDatabase } from '../../utils/db-connection'
+import mocha from 'mocha';
+import addContext from 'mochawesome/addContext';
+import chai from 'chai';
+import chaiHttp from 'chai-http';
+import 'chai/register-should';
+import createApp from '../../app';
+import { closeDatabase } from '../../utils/db-connection';
 const assert = chai.assert;
-import { commentsData } from "../../test/data/comment";
-import Comment from "../../models/comment";
+import { commentsData } from '../../test/data/comment';
+import Comment from '../../models/comment';
 
 chai.use(chaiHttp);
 
@@ -21,10 +21,10 @@ describe('Get all comments', () => {
     await Comment.insertMany(commentsData);
   });
 
-  // after(async () => {
-  //   await Comment.deleteMany({});
-  //   await closeDatabase();
-  // });
+  after(async () => {
+    await Comment.deleteMany({});
+    await closeDatabase();
+  });
 
   it('Should get all comments', function (done) {
     chai

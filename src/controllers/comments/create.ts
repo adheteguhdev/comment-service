@@ -8,7 +8,7 @@ const createComment = async (req: Request, res: Response, next: NextFunction) =>
     const { organizationName } = req.params;
     const newComment = new Comment({
       ...req.body,
-      organizationName: organizationName
+      organizationName: organizationName,
     });
 
     try {
@@ -20,14 +20,12 @@ const createComment = async (req: Request, res: Response, next: NextFunction) =>
       const message = 'Error when save comment';
       logger.error(message, { params: newComment, error: `${error}` });
       return next(createError(500, message + `${error}`));
-    };
-
+    }
   } catch (error) {
     const message = 'Error when create comment';
     logger.error(message, { error: `${error}` });
     return next(createError(500, message + `${error}`));
-  };
+  }
 };
 
 export default createComment;
-

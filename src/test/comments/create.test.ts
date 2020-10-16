@@ -1,13 +1,13 @@
-import mocha from "mocha";
-import addContext from "mochawesome/addContext";
-import chai from "chai";
-import chaiHttp from "chai-http";
-import "chai/register-should";
-import createApp from "../../app";
-import { closeDatabase } from '../../utils/db-connection'
+import mocha from 'mocha';
+import addContext from 'mochawesome/addContext';
+import chai from 'chai';
+import chaiHttp from 'chai-http';
+import 'chai/register-should';
+import createApp from '../../app';
+import { closeDatabase } from '../../utils/db-connection';
 const assert = chai.assert;
-import { commentsData } from "../../test/data/comment";
-import Comment from "../../models/comment";
+import { commentsData } from '../../test/data/comment';
+import Comment from '../../models/comment';
 
 chai.use(chaiHttp);
 

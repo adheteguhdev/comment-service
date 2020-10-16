@@ -1,5 +1,10 @@
 import { Router } from 'express';
-import { createComment, getAllComments, deleteAllComments } from '../controllers/comments';
+import {
+  createComment,
+  getAllComments,
+  deleteAllComments,
+} from '../controllers/comments';
+
 const router = Router();
 
 router.post('/:organizationName/comments', createComment);
