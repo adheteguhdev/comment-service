@@ -1,0 +1,349 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-10-15T17:30:51.862Z",
+    "end": "2020-10-15T17:30:52.284Z",
+    "duration": 422,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "bdaf7d9b-40b6-4c00-9c85-6a02062fa841",
+      "title": "",
+      "fullFile": "",
+      "file": "",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "9839a445-0c9f-4ad6-88f3-fb15612fd314",
+          "title": "Create comment",
+          "fullFile": "/home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts",
+          "file": "/src/test/comments/create.test.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Create comment\"",
+              "fullTitle": "Create comment \"before all\" hook in \"Create comment\"",
+              "timedOut": false,
+              "duration": 293,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_jizckm7du().f[9]++;cov_jizckm7du().s[28]++;return __awaiter(void 0,void 0,void 0,function*(){cov_jizckm7du().f[10]++;cov_jizckm7du().s[29]++;app=yield app_1.default();cov_jizckm7du().s[30]++;yield comment_2.default.deleteMany({});cov_jizckm7du().s[31]++;yield comment_2.default.insertMany(comment_1.commentsData);});",
+              "err": {},
+              "uuid": "1e6245e2-75f3-4e36-9ede-024da44a246d",
+              "parentUUID": "9839a445-0c9f-4ad6-88f3-fb15612fd314",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"Create comment\"",
+              "fullTitle": "Create comment \"after all\" hook in \"Create comment\"",
+              "timedOut": false,
+              "duration": 6,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_jizckm7du().f[11]++;cov_jizckm7du().s[33]++;return __awaiter(void 0,void 0,void 0,function*(){cov_jizckm7du().f[12]++;cov_jizckm7du().s[34]++;yield comment_2.default.deleteMany({});cov_jizckm7du().s[35]++;yield db_connection_1.closeDatabase();});",
+              "err": {},
+              "uuid": "a67ed448-eb68-4bb2-a379-990f14eb12e0",
+              "parentUUID": "9839a445-0c9f-4ad6-88f3-fb15612fd314",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Should create a comment",
+              "fullTitle": "Create comment Should create a comment",
+              "timedOut": false,
+              "duration": 28,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"Response Body\",\n  \"value\": {\n    \"createdAt\": \"2020-10-15T17:30:51.000Z\",\n    \"comment\": \"Create comment Success\",\n    \"organizationName\": \"xendit\",\n    \"id\": \"ae31c54b-8b1b-4f30-94a5-bb9e6ab480aa\"\n  }\n}",
+              "code": "cov_jizckm7du().f[13]++;cov_jizckm7du().s[37]++;chai_1.default.request(app).post(`/orgs/${organizationName}/comments`).send({comment:'Create comment Success'}).end((err,res)=>{cov_jizckm7du().f[14]++;cov_jizckm7du().s[38]++;if(err){cov_jizckm7du().b[8][0]++;cov_jizckm7du().s[39]++;return done(err);}else{cov_jizckm7du().b[8][1]++;}cov_jizckm7du().s[40]++;addContext_1.default(this,{title:'Response Body',value:res.body});cov_jizckm7du().s[41]++;res.should.have.status(201);cov_jizckm7du().s[42]++;res.body.should.be.a('object');cov_jizckm7du().s[43]++;done();});",
+              "err": {},
+              "uuid": "7983f275-8a8c-4859-9858-ed468bfe795b",
+              "parentUUID": "9839a445-0c9f-4ad6-88f3-fb15612fd314",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should not create comment when schema validation failed",
+              "fullTitle": "Create comment Should not create comment when schema validation failed",
+              "timedOut": false,
+              "duration": 10,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"Response Body\",\n  \"value\": {\n    \"code\": \"SCHEMA_VALIDATION_FAILED\",\n    \"message\": \"Validation error [{\\\"code\\\":\\\"INVALID_TYPE\\\",\\\"message\\\":\\\"Expected type string but found type integer\\\",\\\"path\\\":[\\\"comment\\\"]}]\"\n  }\n}",
+              "code": "cov_jizckm7du().f[15]++;cov_jizckm7du().s[45]++;chai_1.default.request(app).post(`/orgs/${organizationName}/comments`).send({comment:9999}).end((err,res)=>{cov_jizckm7du().f[16]++;cov_jizckm7du().s[46]++;if(err){cov_jizckm7du().b[9][0]++;cov_jizckm7du().s[47]++;return done(err);}else{cov_jizckm7du().b[9][1]++;}cov_jizckm7du().s[48]++;addContext_1.default(this,{title:'Response Body',value:res.body});cov_jizckm7du().s[49]++;res.should.have.status(400);cov_jizckm7du().s[50]++;res.body.should.have.an('object');cov_jizckm7du().s[51]++;assert.equal(res.body.code,'SCHEMA_VALIDATION_FAILED');cov_jizckm7du().s[52]++;assert.isNotEmpty(res.body);cov_jizckm7du().s[53]++;done();});",
+              "err": {},
+              "uuid": "2cc06975-8709-4565-bffe-674ca4e0edf0",
+              "parentUUID": "9839a445-0c9f-4ad6-88f3-fb15612fd314",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should return 404 when resource not found",
+              "fullTitle": "Create comment Should return 404 when resource not found",
+              "timedOut": false,
+              "duration": 3,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"Response Body\",\n  \"value\": {\n    \"message\": \"Resource Not Found\"\n  }\n}",
+              "code": "cov_jizckm7du().f[17]++;cov_jizckm7du().s[55]++;chai_1.default.request(app).post(`/orgs/${organizationName}`).send({comment:'Create comment Success'}).end((err,res)=>{cov_jizckm7du().f[18]++;cov_jizckm7du().s[56]++;if(err){cov_jizckm7du().b[10][0]++;cov_jizckm7du().s[57]++;return done(err);}else{cov_jizckm7du().b[10][1]++;}cov_jizckm7du().s[58]++;addContext_1.default(this,{title:'Response Body',value:res.body});cov_jizckm7du().s[59]++;res.should.have.status(404);cov_jizckm7du().s[60]++;res.body.should.have.an('object');cov_jizckm7du().s[61]++;assert.equal(res.body.message,'Resource Not Found');cov_jizckm7du().s[62]++;assert.isNotEmpty(res.body);cov_jizckm7du().s[63]++;done();});",
+              "err": {},
+              "uuid": "ac09fe88-444e-41ed-968d-eff061cd5909",
+              "parentUUID": "9839a445-0c9f-4ad6-88f3-fb15612fd314",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "7983f275-8a8c-4859-9858-ed468bfe795b",
+            "2cc06975-8709-4565-bffe-674ca4e0edf0",
+            "ac09fe88-444e-41ed-968d-eff061cd5909"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 41,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "5cecd4cb-9d69-4787-9df5-0161207ffe51",
+          "title": "Delete all comment",
+          "fullFile": "/home/adhe/Documents/xendit/comment-svc/src/test/comments/delete-all.test.ts",
+          "file": "/src/test/comments/delete-all.test.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Delete all comment\"",
+              "fullTitle": "Delete all comment \"before all\" hook in \"Delete all comment\"",
+              "timedOut": false,
+              "duration": 27,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_138rqfzoy9().f[9]++;cov_138rqfzoy9().s[29]++;return __awaiter(void 0,void 0,void 0,function*(){cov_138rqfzoy9().f[10]++;cov_138rqfzoy9().s[30]++;app=yield app_1.default();cov_138rqfzoy9().s[31]++;yield comment_2.default.deleteMany({});cov_138rqfzoy9().s[32]++;yield comment_2.default.insertMany(comment_1.commentsData);});",
+              "err": {},
+              "uuid": "f0969f0b-e206-43cd-9873-1f1445accae5",
+              "parentUUID": "5cecd4cb-9d69-4787-9df5-0161207ffe51",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [
+            {
+              "title": "\"after all\" hook in \"Delete all comment\"",
+              "fullTitle": "Delete all comment \"after all\" hook in \"Delete all comment\"",
+              "timedOut": false,
+              "duration": 2,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_138rqfzoy9().f[11]++;cov_138rqfzoy9().s[34]++;return __awaiter(void 0,void 0,void 0,function*(){cov_138rqfzoy9().f[12]++;cov_138rqfzoy9().s[35]++;yield comment_2.default.deleteMany({});cov_138rqfzoy9().s[36]++;yield db_connection_1.closeDatabase();});",
+              "err": {},
+              "uuid": "f43de8c9-adf9-4db9-a61e-d9e5c5836e77",
+              "parentUUID": "5cecd4cb-9d69-4787-9df5-0161207ffe51",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "tests": [
+            {
+              "title": "Should delete all comments",
+              "fullTitle": "Delete all comment Should delete all comments",
+              "timedOut": false,
+              "duration": 6,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"Response Body\",\n  \"value\": {}\n}",
+              "code": "cov_138rqfzoy9().f[13]++;cov_138rqfzoy9().s[38]++;chai_1.default.request(app).del(`/orgs/${organizationName}/comments`).end((err,res)=>{cov_138rqfzoy9().f[14]++;cov_138rqfzoy9().s[39]++;if(err){cov_138rqfzoy9().b[8][0]++;cov_138rqfzoy9().s[40]++;return done(err);}else{cov_138rqfzoy9().b[8][1]++;}cov_138rqfzoy9().s[41]++;addContext_1.default(this,{title:'Response Body',value:res.body});cov_138rqfzoy9().s[42]++;res.should.have.status(204);cov_138rqfzoy9().s[43]++;comment_2.default.find({organizationName:organizationName},(err,comments)=>{cov_138rqfzoy9().f[15]++;cov_138rqfzoy9().s[44]++;if(err){cov_138rqfzoy9().b[9][0]++;cov_138rqfzoy9().s[45]++;return done(err);}else{cov_138rqfzoy9().b[9][1]++;}cov_138rqfzoy9().s[46]++;const isDeleted=comment=>{cov_138rqfzoy9().f[16]++;cov_138rqfzoy9().s[47]++;return comment.isDeleted;};const getDeleted=(cov_138rqfzoy9().s[48]++,comments.map(isDeleted));cov_138rqfzoy9().s[49]++;expect(getDeleted).to.not.include(false);});cov_138rqfzoy9().s[50]++;done();});",
+              "err": {},
+              "uuid": "607f9802-92d5-47fa-9801-3f056dcf3934",
+              "parentUUID": "5cecd4cb-9d69-4787-9df5-0161207ffe51",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should return 404 when resource not found",
+              "fullTitle": "Delete all comment Should return 404 when resource not found",
+              "timedOut": false,
+              "duration": 5,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"Response Body\",\n  \"value\": {\n    \"message\": \"Resource Not Found\"\n  }\n}",
+              "code": "cov_138rqfzoy9().f[17]++;cov_138rqfzoy9().s[52]++;chai_1.default.request(app).del(`/orgs/${organizationName}`).end((err,res)=>{cov_138rqfzoy9().f[18]++;cov_138rqfzoy9().s[53]++;if(err){cov_138rqfzoy9().b[10][0]++;cov_138rqfzoy9().s[54]++;return done(err);}else{cov_138rqfzoy9().b[10][1]++;}cov_138rqfzoy9().s[55]++;addContext_1.default(this,{title:'Response Body',value:res.body});cov_138rqfzoy9().s[56]++;res.should.have.status(404);cov_138rqfzoy9().s[57]++;res.body.should.have.an('object');cov_138rqfzoy9().s[58]++;assert.equal(res.body.message,'Resource Not Found');cov_138rqfzoy9().s[59]++;assert.isNotEmpty(res.body);cov_138rqfzoy9().s[60]++;done();});",
+              "err": {},
+              "uuid": "f9c621f1-b6d1-4b04-ba5a-7674d314a63e",
+              "parentUUID": "5cecd4cb-9d69-4787-9df5-0161207ffe51",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "607f9802-92d5-47fa-9801-3f056dcf3934",
+            "f9c621f1-b6d1-4b04-ba5a-7674d314a63e"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 11,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        },
+        {
+          "uuid": "2c52c86c-8d5d-44f8-ac27-2a397a780a47",
+          "title": "Get all comments",
+          "fullFile": "/home/adhe/Documents/xendit/comment-svc/src/test/comments/get-all.test.ts",
+          "file": "/src/test/comments/get-all.test.ts",
+          "beforeHooks": [
+            {
+              "title": "\"before all\" hook in \"Get all comments\"",
+              "fullTitle": "Get all comments \"before all\" hook in \"Get all comments\"",
+              "timedOut": false,
+              "duration": 19,
+              "state": null,
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cov_1htsxywo82().f[9]++;cov_1htsxywo82().s[27]++;return __awaiter(void 0,void 0,void 0,function*(){cov_1htsxywo82().f[10]++;cov_1htsxywo82().s[28]++;app=yield app_1.default();cov_1htsxywo82().s[29]++;yield comment_2.default.deleteMany({});cov_1htsxywo82().s[30]++;yield comment_2.default.insertMany(comment_1.commentsData);});",
+              "err": {},
+              "uuid": "9056d8e2-66e0-492a-945a-97d490c79b4e",
+              "parentUUID": "2c52c86c-8d5d-44f8-ac27-2a397a780a47",
+              "isHook": true,
+              "skipped": false
+            }
+          ],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Should get all comments",
+              "fullTitle": "Get all comments Should get all comments",
+              "timedOut": false,
+              "duration": 8,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"Response Body\",\n  \"value\": [\n    {\n      \"createdAt\": \"2020-10-15T17:30:51.000Z\",\n      \"comment\": \"Looking to hire SE Asia's top dev talent!\",\n      \"organizationName\": \"xendit\",\n      \"id\": \"aec2b69e-7e98-418a-9889-889be9df6241\"\n    },\n    {\n      \"createdAt\": \"2020-10-15T17:30:51.000Z\",\n      \"comment\": \"Looking to hire SE Europe's top dev talent!\",\n      \"organizationName\": \"xendit\",\n      \"id\": \"aec2b69e-7e98-418a-9889-889be9df6242\"\n    },\n    {\n      \"createdAt\": \"2020-10-15T17:30:51.000Z\",\n      \"comment\": \"Looking to hire PM Asia's top talent!\",\n      \"organizationName\": \"xendit\",\n      \"id\": \"aec2b69e-7e98-418a-9889-889be9df6246\"\n    },\n    {\n      \"createdAt\": \"2020-10-15T17:30:51.000Z\",\n      \"comment\": \"Looking to hire HR Asia's top talent!\",\n      \"organizationName\": \"xendit\",\n      \"id\": \"aec2b69e-7e98-418a-9889-889be9df6247\"\n    }\n  ]\n}",
+              "code": "cov_1htsxywo82().f[11]++;cov_1htsxywo82().s[32]++;chai_1.default.request(app).get(`/orgs/${organizationName}/comments`).end((err,res)=>{cov_1htsxywo82().f[12]++;cov_1htsxywo82().s[33]++;if(err){cov_1htsxywo82().b[8][0]++;cov_1htsxywo82().s[34]++;return done(err);}else{cov_1htsxywo82().b[8][1]++;}cov_1htsxywo82().s[35]++;addContext_1.default(this,{title:'Response Body',value:res.body});cov_1htsxywo82().s[36]++;res.should.have.status(200);cov_1htsxywo82().s[37]++;res.body.should.have.an('array');cov_1htsxywo82().s[38]++;done();});",
+              "err": {},
+              "uuid": "9c14c71e-9af1-4b58-b87d-b3b851cf31b9",
+              "parentUUID": "2c52c86c-8d5d-44f8-ac27-2a397a780a47",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Should return 404 when resource not found",
+              "fullTitle": "Get all comments Should return 404 when resource not found",
+              "timedOut": false,
+              "duration": 4,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": "{\n  \"title\": \"Response Body\",\n  \"value\": {\n    \"message\": \"Resource Not Found\"\n  }\n}",
+              "code": "cov_1htsxywo82().f[13]++;cov_1htsxywo82().s[40]++;chai_1.default.request(app).get(`/orgs/${organizationName}`).end((err,res)=>{cov_1htsxywo82().f[14]++;cov_1htsxywo82().s[41]++;if(err){cov_1htsxywo82().b[9][0]++;cov_1htsxywo82().s[42]++;return done(err);}else{cov_1htsxywo82().b[9][1]++;}cov_1htsxywo82().s[43]++;addContext_1.default(this,{title:'Response Body',value:res.body});cov_1htsxywo82().s[44]++;res.should.have.status(404);cov_1htsxywo82().s[45]++;res.body.should.have.an('object');cov_1htsxywo82().s[46]++;assert.equal(res.body.message,'Resource Not Found');cov_1htsxywo82().s[47]++;assert.isNotEmpty(res.body);cov_1htsxywo82().s[48]++;done();});",
+              "err": {},
+              "uuid": "31728b6b-e8de-4f33-9952-e4a33607f386",
+              "parentUUID": "2c52c86c-8d5d-44f8-ac27-2a397a780a47",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "9c14c71e-9af1-4b58-b87d-b3b851cf31b9",
+            "31728b6b-e8de-4f33-9952-e4a33607f386"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 12,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 10000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 10000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "8.1.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.1.0"
+    }
+  }
+}

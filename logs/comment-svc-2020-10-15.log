@@ -1,0 +1,246 @@
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:22:59.740Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:22:59.821Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:22:59.856Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:22:59.874Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:22:59.903Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:22:59.920Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:24:11.699Z"}
+{"params":{"createdAt":"2020-10-15T10:24:10.000Z","comment":"Create comment Success","organizationName":"xendit","id":"ce9cea31-b137-4c1f-bfd4-5e3043a24da1"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:24:11.788Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:24:11.810Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:24:11.845Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:24:11.867Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:24:11.887Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:24:11.911Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:24:11.925Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:24:11.933Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:27:19.895Z"}
+{"params":{"createdAt":"2020-10-15T10:27:18.000Z","comment":"Create comment Success","organizationName":"xendit","id":"ea6b8ef8-1c4e-44cd-93ba-6a5af05f8a43"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:27:19.967Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:27:19.988Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:27:20.019Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:27:20.038Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:27:20.053Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:27:20.077Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:27:20.089Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:27:20.097Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:27:48.049Z"}
+{"params":{"createdAt":"2020-10-15T10:27:46.000Z","comment":"Create comment Success","organizationName":"xendit","id":"20d6b8c2-fdae-4a30-91c3-aa507c4bd08c"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:27:48.132Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:27:48.155Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:27:48.194Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:27:48.214Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:27:48.233Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:27:48.255Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:27:48.270Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:27:48.278Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:28:47.662Z"}
+{"params":{"createdAt":"2020-10-15T10:28:46.000Z","comment":"Create comment Success","organizationName":"xendit","id":"d3e1d2d8-21c0-4a72-9a41-af4b206e5638"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:28:47.739Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:28:47.766Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:28:47.798Z"}
+{"params":{"organizationName":"xndit"},"level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:28:47.814Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:28:47.834Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:28:47.854Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:28:47.872Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:28:47.880Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:29:32.311Z"}
+{"params":{"createdAt":"2020-10-15T10:29:30.000Z","comment":"Create comment Success","organizationName":"xendit","id":"b0894431-4f30-4e7f-b120-74ca52134bc2"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:29:32.417Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:29:32.446Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:29:32.485Z"}
+{"params":{"organizationName":"xndit"},"level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:29:32.509Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:29:32.529Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:29:32.564Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:29:32.583Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:29:32.595Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:30:18.868Z"}
+{"params":{"createdAt":"2020-10-15T10:30:17.000Z","comment":"Create comment Success","organizationName":"xendit","id":"796139e6-507d-46ea-94d8-a03eed3bde57"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:30:18.959Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:30:18.983Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:30:19.019Z"}
+{"params":"[object Object][object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:30:19.046Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:30:19.065Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:30:19.094Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:30:19.115Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:30:19.124Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:30:42.404Z"}
+{"params":{"createdAt":"2020-10-15T10:30:41.000Z","comment":"Create comment Success","organizationName":"xendit","id":"60f8d752-24ac-41bf-9d5e-0625bb45abc8"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:30:42.481Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:30:42.503Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:30:42.548Z"}
+{"params":"[object Object][object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:30:42.570Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:30:42.588Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:30:42.613Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:30:42.636Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:30:42.647Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:31:31.951Z"}
+{"params":{"createdAt":"2020-10-15T10:31:30.000Z","comment":"Create comment Success","organizationName":"xendit","id":"49b4bdb3-09c1-446e-a1f1-5e1b53b1d8e7"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:31:32.026Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:31:32.046Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:31:32.087Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:31:32.111Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:31:32.125Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:31:32.156Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:31:32.174Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:31:32.183Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:33:05.297Z"}
+{"params":{"createdAt":"2020-10-15T10:33:03.000Z","comment":"Create comment Success","organizationName":"xendit","id":"da5fa71d-5483-4a0e-999d-a3605ad11e00"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:33:05.391Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:33:05.415Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:33:05.452Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:33:05.478Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:33:05.496Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:33:05.520Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:33:05.545Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:33:05.556Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:34:30.754Z"}
+{"params":{"createdAt":"2020-10-15T10:34:29.000Z","comment":"Create comment Success","organizationName":"xendit","id":"e61940ef-57f3-4168-aba8-08c92e56044a"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:34:30.834Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:34:30.857Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:34:30.886Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:34:30.907Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:34:30.921Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:34:30.944Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:34:30.960Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:34:30.968Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:35:49.200Z"}
+{"params":{"createdAt":"2020-10-15T10:35:47.000Z","comment":"Create comment Success","organizationName":"xendit","id":"035a8588-371c-4778-9bb2-d75083dfb48b"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:35:49.297Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:35:49.324Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:35:49.359Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:35:49.385Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:35:49.407Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:35:49.450Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:35:49.471Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:35:49.481Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:36:11.786Z"}
+{"params":{"createdAt":"2020-10-15T10:36:10.000Z","comment":"Create comment Success","organizationName":"xendit","id":"bfd6ac78-6466-4920-903a-a66a20d28898"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:36:11.854Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:36:11.873Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:36:11.898Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:36:11.913Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:36:11.929Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:36:11.945Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:36:11.961Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:36:11.970Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:38:04.111Z"}
+{"params":{"createdAt":"2020-10-15T10:38:02.000Z","comment":"Create comment Success","organizationName":"xendit","id":"a4cc5459-18ee-421e-8b46-41a91c0e3a5e"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:38:04.195Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:38:04.218Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:38:04.260Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:38:04.281Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:38:04.299Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:38:04.324Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:38:04.346Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:38:04.358Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:41:51.298Z"}
+{"message":"Server running on port 3009","level":"info","timestamp":"2020-10-15T10:41:51.303Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:41:58.578Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:42:03.437Z"}
+{"params":"/orgs/xendit/commentsv","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:42:09.100Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:45:41.269Z"}
+{"params":{"createdAt":"2020-10-15T10:45:40.000Z","comment":"Create comment Success","organizationName":"xendit","id":"2adb5ec6-26de-44ec-beb0-4e7794d1df33"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:45:41.349Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:45:41.371Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:45:41.400Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:45:41.420Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:45:41.437Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:45:41.462Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:45:41.479Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:45:41.486Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:47:37.984Z"}
+{"params":{"createdAt":"2020-10-15T10:47:37.000Z","comment":"Create comment Success","organizationName":"xendit","id":"06f2bab6-ac86-40df-85a1-8160ec17125c"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:47:38.064Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:47:38.080Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:47:38.091Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:47:38.120Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:47:38.141Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:47:38.154Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:47:38.181Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:47:38.196Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:47:38.206Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:47:57.120Z"}
+{"params":{"createdAt":"2020-10-15T10:47:56.000Z","comment":"Create comment Success","organizationName":"xendit","id":"b043441e-37aa-4bd1-bb3c-c8847e884b8c"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:47:57.199Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:47:57.216Z"}
+{"error":{"name":"AssertionError","message":"expected 'Resource Not Found' to equal 'Resource Not Founds'","showDiff":true,"actual":"Resource Not Found","expected":"Resource Not Founds","stack":"AssertionError: expected 'Resource Not Found' to equal 'Resource Not Founds'\n    at /home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts:2:4703\n    at Test.Request.callback (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"},"level":"error","message":"uncaughtException: expected 'Resource Not Found' to equal 'Resource Not Founds'\nAssertionError: expected 'Resource Not Found' to equal 'Resource Not Founds'\n    at /home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts:2:4703\n    at Test.Request.callback (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)","stack":"AssertionError: expected 'Resource Not Found' to equal 'Resource Not Founds'\n    at /home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts:2:4703\n    at Test.Request.callback (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)","exception":true,"date":"Thu Oct 15 2020 17:47:57 GMT+0700 (Western Indonesia Time)","process":{"pid":15898,"uid":1000,"gid":1000,"cwd":"/home/adhe/Documents/xendit/comment-svc","execPath":"/home/adhe/.nvm/versions/node/v12.13.1/bin/node","version":"v12.13.1","argv":["/home/adhe/.nvm/versions/node/v12.13.1/bin/node","/home/adhe/Documents/xendit/comment-svc/node_modules/mocha/lib/cli/cli.js","src/test/comments/create.test.ts","src/test/comments/delete-all.test.ts","src/test/comments/get-all.test.ts","--diff","--no-config","--no-package","--require","ts-node/register","--no-opts","--exit","--reporter","mochawesome","--full-trace","--timeout","10000","--extension","js","--extension","cjs","--extension","mjs","--slow","75","--ui","bdd","--watch-ignore","node_modules","--watch-ignore",".git"],"memoryUsage":{"rss":258428928,"heapTotal":192757760,"heapUsed":168587264,"external":19804983}},"os":{"loadavg":[0.86083984375,0.6669921875,0.67529296875],"uptime":27691},"trace":[{"column":4703,"file":"/home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts","function":null,"line":2,"method":null,"native":false},{"column":12,"file":"/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":7,"file":"events.js","function":"IncomingMessage.emit","line":215,"method":"emit","native":false},{"column":12,"file":"_stream_readable.js","function":"endReadableNT","line":1184,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":80,"method":null,"native":false}],"timestamp":"2020-10-15T10:47:57.224Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:47:57.235Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:47:57.268Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:47:57.293Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:47:57.310Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:47:57.344Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:47:57.365Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:47:57.372Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:48:46.127Z"}
+{"params":{"createdAt":"2020-10-15T10:48:44.000Z","comment":"Create comment Success","organizationName":"xendit","id":"6f0525b6-0b9e-4cd2-a2d2-14f9b4f2890a"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:48:46.214Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:48:46.236Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:48:46.252Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:48:46.294Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:48:46.320Z"}
+{"params":"/orgs/xndit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:48:46.333Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:48:46.345Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:48:46.372Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:48:46.395Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:48:46.405Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:49:38.261Z"}
+{"params":{"createdAt":"2020-10-15T10:49:36.000Z","comment":"Create comment Success","organizationName":"xendit","id":"a125632f-1ab0-437d-9d14-a7a47d9223a7"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:49:38.356Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:49:38.380Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:49:38.396Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:49:38.440Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:49:38.465Z"}
+{"params":"/orgs/xndit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:49:38.481Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:49:38.493Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:49:38.525Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:49:38.547Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:49:38.557Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:49:38.566Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:51:21.110Z"}
+{"params":{"createdAt":"2020-10-15T10:51:20.000Z","comment":"Create comment Success","organizationName":"xendit","id":"e7e27375-6040-4d03-88be-6b6793f0c05e"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:51:21.184Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:51:21.200Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:51:21.210Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:51:21.243Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:51:21.264Z"}
+{"params":"/orgs/xndit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:51:21.279Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:51:21.288Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:51:21.317Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:51:21.342Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:51:21.347Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:51:21.357Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:53:42.547Z"}
+{"params":{"createdAt":"2020-10-15T10:53:41.000Z","comment":"Create comment Success","organizationName":"xendit","id":"c7d1eb60-0ef5-4599-95ed-c8cebb2b67ce"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:53:42.628Z"}
+{"error":"[{\"code\":\"INVALID_TYPE\",\"message\":\"Expected type string but found type integer\",\"path\":[\"comment\"]}]","level":"error","message":"Error schema validation","timestamp":"2020-10-15T10:53:42.651Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:53:42.657Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:53:42.671Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:53:42.708Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:53:42.726Z"}
+{"params":"/orgs/xndit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:53:42.739Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:53:42.746Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:53:42.766Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:53:42.783Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:53:42.788Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:53:42.796Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:54:13.044Z"}
+{"params":{"createdAt":"2020-10-15T10:54:12.000Z","comment":"Create comment Success","organizationName":"xendit","id":"5ef6d194-2040-45c4-a4b2-b5b9e8306451"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:54:13.132Z"}
+{"error":"[{\"code\":\"INVALID_TYPE\",\"message\":\"Expected type string but found type integer\",\"path\":[\"comment\"]}]","level":"error","message":"Error schema validation","timestamp":"2020-10-15T10:54:13.167Z"}
+{"error":{"name":"AssertionError","message":"expected 'SCHEMA_VALIDATION_FAILED' to equal 'SCHEMA_VALIDATION_FAILEDd'","showDiff":true,"actual":"SCHEMA_VALIDATION_FAILED","expected":"SCHEMA_VALIDATION_FAILEDd","stack":"AssertionError: expected 'SCHEMA_VALIDATION_FAILED' to equal 'SCHEMA_VALIDATION_FAILEDd'\n    at /home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts:2:4686\n    at Test.Request.callback (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)"},"level":"error","message":"uncaughtException: expected 'SCHEMA_VALIDATION_FAILED' to equal 'SCHEMA_VALIDATION_FAILEDd'\nAssertionError: expected 'SCHEMA_VALIDATION_FAILED' to equal 'SCHEMA_VALIDATION_FAILEDd'\n    at /home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts:2:4686\n    at Test.Request.callback (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)","stack":"AssertionError: expected 'SCHEMA_VALIDATION_FAILED' to equal 'SCHEMA_VALIDATION_FAILEDd'\n    at /home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts:2:4686\n    at Test.Request.callback (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:716:12)\n    at /home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js:916:18\n    at IncomingMessage.<anonymous> (/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js:19:7)\n    at IncomingMessage.emit (events.js:215:7)\n    at endReadableNT (_stream_readable.js:1184:12)\n    at processTicksAndRejections (internal/process/task_queues.js:80:21)","exception":true,"date":"Thu Oct 15 2020 17:54:13 GMT+0700 (Western Indonesia Time)","process":{"pid":16564,"uid":1000,"gid":1000,"cwd":"/home/adhe/Documents/xendit/comment-svc","execPath":"/home/adhe/.nvm/versions/node/v12.13.1/bin/node","version":"v12.13.1","argv":["/home/adhe/.nvm/versions/node/v12.13.1/bin/node","/home/adhe/Documents/xendit/comment-svc/node_modules/mocha/lib/cli/cli.js","src/test/comments/create.test.ts","src/test/comments/delete-all.test.ts","src/test/comments/get-all.test.ts","--diff","--no-config","--no-package","--require","ts-node/register","--no-opts","--exit","--reporter","mochawesome","--full-trace","--timeout","10000","--extension","js","--extension","cjs","--extension","mjs","--slow","75","--ui","bdd","--watch-ignore","node_modules","--watch-ignore",".git"],"memoryUsage":{"rss":259260416,"heapTotal":192946176,"heapUsed":170397576,"external":20098013}},"os":{"loadavg":[1.56689453125,1.00830078125,0.8134765625],"uptime":28067},"trace":[{"column":4686,"file":"/home/adhe/Documents/xendit/comment-svc/src/test/comments/create.test.ts","function":null,"line":2,"method":null,"native":false},{"column":12,"file":"/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js","function":"Test.Request.callback","line":716,"method":"callback","native":false},{"column":18,"file":"/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/index.js","function":null,"line":916,"method":null,"native":false},{"column":7,"file":"/home/adhe/Documents/xendit/comment-svc/node_modules/superagent/lib/node/parsers/json.js","function":null,"line":19,"method":null,"native":false},{"column":7,"file":"events.js","function":"IncomingMessage.emit","line":215,"method":"emit","native":false},{"column":12,"file":"_stream_readable.js","function":"endReadableNT","line":1184,"method":null,"native":false},{"column":21,"file":"internal/process/task_queues.js","function":"processTicksAndRejections","line":80,"method":null,"native":false}],"timestamp":"2020-10-15T10:54:13.176Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:54:13.182Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:54:13.196Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:54:13.238Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:54:13.258Z"}
+{"params":"/orgs/xndit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:54:13.275Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:54:13.283Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:54:13.308Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:54:13.330Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:54:13.338Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:54:13.346Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:54:30.642Z"}
+{"params":{"createdAt":"2020-10-15T10:54:29.000Z","comment":"Create comment Success","organizationName":"xendit","id":"d380a92b-d23d-4ec0-9ef6-dca5c66830e6"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T10:54:30.744Z"}
+{"error":"[{\"code\":\"INVALID_TYPE\",\"message\":\"Expected type string but found type integer\",\"path\":[\"comment\"]}]","level":"error","message":"Error schema validation","timestamp":"2020-10-15T10:54:30.774Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:54:30.785Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:54:30.801Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:54:30.846Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T10:54:30.874Z"}
+{"params":"/orgs/xndit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:54:30.896Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:54:30.906Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T10:54:30.944Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T10:54:30.968Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T10:54:30.975Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T10:54:30.984Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T14:06:14.927Z"}
+{"params":{"createdAt":"2020-10-15T14:06:14.000Z","comment":"Create comment Success","organizationName":"xendit","id":"763ce39e-e0ed-4c3d-9b01-40a4d75ae12e"},"level":"info","message":"Create comment success","timestamp":"2020-10-15T14:06:15.004Z"}
+{"error":"[{\"code\":\"INVALID_TYPE\",\"message\":\"Expected type string but found type integer\",\"path\":[\"comment\"]}]","level":"error","message":"Error schema validation","timestamp":"2020-10-15T14:06:15.019Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T14:06:15.027Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T14:06:15.036Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T14:06:15.076Z"}
+{"params":"[object Object]: [object Object]","level":"info","message":"Delete all comments success","timestamp":"2020-10-15T14:06:15.096Z"}
+{"params":"/orgs/xndit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T14:06:15.110Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T14:06:15.115Z"}
+{"message":"Database connected","level":"info","timestamp":"2020-10-15T14:06:15.130Z"}
+{"params":{"organizationName":"xendit"},"level":"info","message":"Get all comments success","timestamp":"2020-10-15T14:06:15.146Z"}
+{"params":"/orgs/xendit","level":"error","message":"Resource Not found","timestamp":"2020-10-15T14:06:15.153Z"}
+{"message":"Database closed","level":"info","timestamp":"2020-10-15T14:06:15.162Z"}

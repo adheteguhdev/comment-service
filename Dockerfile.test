@@ -1,0 +1,7 @@
+FROM node:12.19.0-alpine
+
+#create app directory
+RUN mkdir -p /usr/src/app
+WORKDIR /usr/src/app
+
+CMD ["yarn", "test"]

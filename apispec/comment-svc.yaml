@@ -1,0 +1,151 @@
+swagger: '2.0'
+info:
+  version: 1.0.0
+  title: Comment Service API
+  description: Service to handle Comments
+  contact:
+    email: to@adheteguh.com
+
+paths:
+  /orgs/{organizationName}/comments:
+    post:
+      operationId: addComment
+      summary: Add Comment
+      description: Add Comment
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: organizationName
+          type: string
+          required: true
+        - in: body
+          name: body
+          required: true
+          schema:
+            $ref: '#/definitions/requestComment'
+      responses:
+        201:
+          description: Successful response
+          schema:
+            $ref: "#/definitions/responseComment"
+        400:
+          description: Bad Request / Validation exception
+          schema:
+            $ref: '#/definitions/error400'
+        404:
+          description: Resource Not Found
+          schema:
+            $ref: '#/definitions/error404'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/errorDefault'
+
+    get:
+      operationId: getComment
+      summary: Get All Comments
+      description: Get All Comments
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: organizationName
+          type: string
+          required: true
+      responses:
+        200:
+          description: Successful response
+          schema:
+            type: array
+            items:
+              $ref: "#/definitions/responseComment"
+        400:
+          description: Bad Request / Validation exception
+          schema:
+            $ref: '#/definitions/error400'
+        404:
+          description: Resource Not Found
+          schema:
+            $ref: '#/definitions/error404'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/errorDefault'
+    delete:
+      operationId: deleteAllComments
+      summary: Delete All Comments
+      description: Delete All Comments
+      produces:
+        - application/json
+      parameters:
+        - in: path
+          name: organizationName
+          type: string
+          required: true
+      responses:
+        204:
+          description: Successful
+        404:
+          description: Resource Not Found
+          schema:
+            $ref: '#/definitions/error404'
+        default:
+          description: Error
+          schema:
+            $ref: '#/definitions/errorDefault'
+
+definitions:
+  responseComment:
+    type: object
+    properties:
+      id:
+        type: string
+        readOnly: true
+        example: 32c8f61e-f59e-48eb-820e-90d4ea66af1a
+      organizationName:
+          type: string
+          example: xendit
+      comment:
+        type: string
+        example: Looking to hire SE Asia's top dev talent!
+      createdAt: 
+        type: string
+        format: "date-time"
+        example: '2020-10-13T23:34:38Z'
+        readOnly: true
+        
+  requestComment:
+    type: object
+    required:
+      - comment
+    properties:
+      comment:
+        type: string
+        example: Looking to hire SE Asia's top dev talent!
+
+  error400:
+    type: object
+    properties:
+      code:
+        type: string
+        example: REQUIRED
+      message:
+        type: string
+        example: Bad Request - Your request is missing parameters. Please verify and resubmit
+  error404:
+    type: object
+    properties:
+      message:
+        type: string
+        example: Resource Not Found
+
+  errorDefault:
+    type: object
+    properties:
+      code:
+        type: string
+        example: INTERNAL_SERVER_ERROR
+      message:
+        type: string
+        example: Sorry, an unexpected error has occurred
