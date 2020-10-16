@@ -1,6 +1,5 @@
 ﻿# Comment Service
 
-
 ## Introduction
 #### Technology Stacks & Packages:
  - NodeJS v12.19.0
